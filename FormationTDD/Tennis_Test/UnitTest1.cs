@@ -25,15 +25,15 @@ namespace Tennis_Test
         public void should_set_a_point()
         {
             Kata.addPoint(Kata.player1);
-            Assert.AreEqual(1, Kata.score[0]);
-            Assert.AreEqual(0, Kata.score[1]);
+            Assert.AreEqual(1, Kata.scoring[0]);
+            Assert.AreEqual(0, Kata.scoring[1]);
         }
 
         [Test]
         public void should_display_a_score()
         {
             var result = Kata.score();
-            Assert.IsInstanceOf(result, typeof(String));
+            Assert.IsInstanceOf(typeof(String), result);
         }
     }
 }
