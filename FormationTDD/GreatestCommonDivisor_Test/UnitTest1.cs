@@ -9,10 +9,21 @@ namespace GreatestCommonDivisor_Test
         {
         }
 
-        [Test]
-        public void Test1()
+        struct Fraction
         {
-            Assert.Pass();
+            public int numerator { get;set }
+            public int denominator { get; set; }
+        }
+
+        [Test]
+        public void Fraction_cannot_be_mutated()
+        {
+            Fraction f1 = new()
+            {
+                numerator = 1,
+                denominator = 2
+            };
+            Kata.add(f1, f1);
         }
     }
 }
