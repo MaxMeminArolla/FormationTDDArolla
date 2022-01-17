@@ -1,3 +1,4 @@
+using GreatesCommonDivisor;
 using NUnit.Framework;
 
 namespace GreatestCommonDivisor_Test
@@ -9,21 +10,13 @@ namespace GreatestCommonDivisor_Test
         {
         }
 
-        struct Fraction
-        {
-            public int numerator { get;set }
-            public int denominator { get; set; }
-        }
-
         [Test]
-        public void Fraction_cannot_be_mutated()
+        public void Should_Add_Fractions()
         {
-            Fraction f1 = new()
-            {
-                numerator = 1,
-                denominator = 2
-            };
-            Kata.add(f1, f1);
+            Fraction f1 = new(1, 2);
+            Fraction f2 = new(3, 4);
+
+            Assert.AreEqual(new Fraction(5, 4), Kata.Add(f1, f2));
         }
     }
 }
