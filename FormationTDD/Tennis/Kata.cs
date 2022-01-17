@@ -25,6 +25,7 @@ namespace Tennis
         {
             if(scoring[0] == 0 && scoring[1] == 0) return "score:Love-Love";
             if (scoring[0] == 2 && scoring[1] == 0) return "score:Thirty-Love";
+            if (scoring[0] == 3 && scoring[1] == 0) return "score:Forty-Love";
             return "score:Fifteen-Love";
         }
     }

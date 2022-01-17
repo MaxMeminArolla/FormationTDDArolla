@@ -60,6 +60,7 @@ namespace Tennis_Test
         {
             Kata.addPoint(Kata.player1);
             Kata.addPoint(Kata.player1);
+            Kata.addPoint(Kata.player1);
             var result = Kata.score();
             Assert.AreEqual("score:Forty-Love", result);
         }
