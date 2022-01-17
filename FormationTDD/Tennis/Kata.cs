@@ -22,8 +22,12 @@ namespace Tennis
         }
 
         public static string score()
-        {       
-            return $"score:{Enum.GetName(typeof(QuirkyScoring), scoring[0])}-{Enum.GetName(typeof(QuirkyScoring), scoring[1])}";
+        { 
+            string result = $"score:{Enum.GetName(typeof(QuirkyScoring), scoring[0])}-{Enum.GetName(typeof(QuirkyScoring), scoring[1])}";
+
+            if (scoring[0] >= 3 && scoring[1] >= 3) result += " (Deuce)";
+            
+            return result;
         }
 
         enum QuirkyScoring
