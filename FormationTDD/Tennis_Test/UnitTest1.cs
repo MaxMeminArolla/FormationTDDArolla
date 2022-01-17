@@ -34,6 +34,16 @@ namespace Tennis_Test
         {
             var result = Kata.score();
             Assert.IsInstanceOf(typeof(String), result);
+            Assert.AreEqual("score:0-0", result);
+        }
+
+        [Test]
+        public void should_display_a_score_after_a_point()
+        {
+            Kata.addPoint(Kata.player1);
+            var result = Kata.score();
+            Assert.IsInstanceOf(typeof(String), result);
+            Assert.AreEqual("score:1-0", result);
         }
     }
 }
