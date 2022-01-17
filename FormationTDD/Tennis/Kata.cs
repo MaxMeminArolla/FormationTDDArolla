@@ -23,10 +23,16 @@ namespace Tennis
 
         public static string score()
         {
-            if(scoring[0] == 0 && scoring[1] == 0) return "score:Love-Love";
-            if (scoring[0] == 2 && scoring[1] == 0) return "score:Thirty-Love";
-            if (scoring[0] == 3 && scoring[1] == 0) return "score:Forty-Love";
-            return "score:Fifteen-Love";
+            return $"score:{Enum.GetName(typeof(QuirkyScoring), scoring[0])}-{Enum.GetName(typeof(QuirkyScoring), scoring[1])}";
+        }
+
+        enum QuirkyScoring
+        {
+            Love,
+            Fifteen,
+            Thirty,
+            Forty,
+            Deuce
         }
     }
 }
