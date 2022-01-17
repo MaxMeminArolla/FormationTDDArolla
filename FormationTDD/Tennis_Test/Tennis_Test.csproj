@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GreatesCommonDivisor\GreatesCommonDivisor.csproj" />
+    <ProjectReference Include="..\Tennis\Tennis.csproj" />
   </ItemGroup>
 
 </Project>
