@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreatestCommonDivisor_Test", "GreatestCommonDivisor_Test\GreatestCommonDivisor_Test.csproj", "{76C897DB-860E-4738-B391-DBC6D59149ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatesCommonDivisor", "GreatesCommonDivisor\GreatesCommonDivisor.csproj", "{71C69D2F-5E22-48F3-B1CA-4A650019E723}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76C897DB-860E-4738-B391-DBC6D59149ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C897DB-860E-4738-B391-DBC6D59149ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C897DB-860E-4738-B391-DBC6D59149ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C897DB-860E-4738-B391-DBC6D59149ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C69D2F-5E22-48F3-B1CA-4A650019E723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C69D2F-5E22-48F3-B1CA-4A650019E723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C69D2F-5E22-48F3-B1CA-4A650019E723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C69D2F-5E22-48F3-B1CA-4A650019E723}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3579BA9E-06DD-4401-9946-B2E82724B3A4}
+	EndGlobalSection
+EndGlobal
