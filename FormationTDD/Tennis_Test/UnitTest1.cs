@@ -79,5 +79,21 @@ namespace Tennis_Test
             var result = Kata.score();
             Assert.AreEqual("score:Forty-Forty (Deuce)", result);
         }
+
+        [Test]
+        public void should_display_a_score_at_Advantage()
+        {
+            Kata.addPoint(Kata.player1);
+            Kata.addPoint(Kata.player1);
+            Kata.addPoint(Kata.player1);
+
+            Kata.addPoint(Kata.player2);
+            Kata.addPoint(Kata.player2);
+            Kata.addPoint(Kata.player2);
+            Kata.addPoint(Kata.player2);
+
+            var result = Kata.score();
+            Assert.AreEqual("score:Forty-Forty (Advantage for Jean Eudes)", result);
+        }
     }
 }

@@ -23,10 +23,13 @@ namespace Tennis
 
         public static string score()
         { 
-            string result = $"score:{Enum.GetName(typeof(QuirkyScoring), scoring[0])}-{Enum.GetName(typeof(QuirkyScoring), scoring[1])}";
+            string result = $"score:{Enum.GetName(typeof(QuirkyScoring), scoring[0] > 3 ? 3 : scoring[0])}-{Enum.GetName(typeof(QuirkyScoring), scoring[1] > 3 ? 3 : scoring[1])}";
 
-            if (scoring[0] >= 3 && scoring[1] >= 3) result += " (Deuce)";
-            
+            if (scoring[0] >= 3 && scoring[1] >= 3 
+                && scoring[0] == scoring[1]) result += " (Deuce)";
+            if (scoring[0] >= 3 && scoring[1] >= 3
+                && Math.Abs(scoring[0]-scoring[1]) == 1) result += $" (Advantage for {(scoring[0] > scoring[1] ? player1 : player2)})";
+
             return result;
         }
 
@@ -35,8 +38,7 @@ namespace Tennis
             Love,
             Fifteen,
             Thirty,
-            Forty,
-            Deuce
+            Forty
         }
     }
 }
