@@ -22,7 +22,7 @@ namespace Tennis
         }
 
         public static string score()
-        {
+        {       
             return $"score:{Enum.GetName(typeof(QuirkyScoring), scoring[0])}-{Enum.GetName(typeof(QuirkyScoring), scoring[1])}";
         }
 
