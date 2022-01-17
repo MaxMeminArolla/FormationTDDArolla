@@ -10,9 +10,9 @@ namespace Tennis_Test
         }
 
         [Test]
-        public void Test1()
+        public void should_game_initialized()
         {
-            Assert.Pass();
+            Kata.init("Maurice", "Jean Eudes");
         }
     }
 }
