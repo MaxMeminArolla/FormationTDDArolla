@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using Tennis;
 
 namespace Tennis_Test
@@ -26,6 +27,13 @@ namespace Tennis_Test
             Kata.addPoint(Kata.player1);
             Assert.AreEqual(1, Kata.score[0]);
             Assert.AreEqual(0, Kata.score[1]);
+        }
+
+        [Test]
+        public void should_display_a_score()
+        {
+            var result = Kata.score();
+            Assert.IsInstanceOf(result, typeof(String));
         }
     }
 }
