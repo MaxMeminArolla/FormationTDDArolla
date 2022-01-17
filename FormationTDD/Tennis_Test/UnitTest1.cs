@@ -19,5 +19,10 @@ namespace Tennis_Test
             Assert.AreEqual("Maurice", Kata.player1);
             Assert.AreEqual("Jean Eudes", Kata.player2);
         }
+
+        public void should_set_a_point()
+        {
+            Kata.addPoint(Kata.player1);
+        }
     }
 }
