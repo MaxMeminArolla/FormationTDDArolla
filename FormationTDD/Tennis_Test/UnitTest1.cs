@@ -34,7 +34,7 @@ namespace Tennis_Test
         {
             var result = Kata.score();
             Assert.IsInstanceOf(typeof(String), result);
-            Assert.AreEqual("score:0-0", result);
+            Assert.AreEqual("score:Love-Love", result);
         }
 
         [Test]
@@ -43,7 +43,16 @@ namespace Tennis_Test
             Kata.addPoint(Kata.player1);
             var result = Kata.score();
             Assert.IsInstanceOf(typeof(String), result);
-            Assert.AreEqual("score:1-0", result);
+            Assert.AreEqual("score:Fifteen-Love", result);
+        }
+
+        [Test]
+        public void should_display_a_score_after_two_points()
+        {
+            Kata.addPoint(Kata.player1);
+            Kata.addPoint(Kata.player1);
+            var result = Kata.score();
+            Assert.AreEqual("score:Thirty-Love", result);
         }
     }
 }

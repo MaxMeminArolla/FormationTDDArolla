@@ -23,7 +23,8 @@ namespace Tennis
 
         public static string score()
         {
-            return "score:0-0";
+            if(scoring[0] == 0 && scoring[1] == 0) return "score:Love-Love"; 
+            return "score:Fifteen-Love";
         }
     }
 }
