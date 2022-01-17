@@ -54,5 +54,14 @@ namespace Tennis_Test
             var result = Kata.score();
             Assert.AreEqual("score:Thirty-Love", result);
         }
+
+        [Test]
+        public void should_display_a_score_after_three_points()
+        {
+            Kata.addPoint(Kata.player1);
+            Kata.addPoint(Kata.player1);
+            var result = Kata.score();
+            Assert.AreEqual("score:Forty-Love", result);
+        }
     }
 }
