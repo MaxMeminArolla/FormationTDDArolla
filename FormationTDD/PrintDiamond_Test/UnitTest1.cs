@@ -15,7 +15,7 @@ namespace PrintDiamond_Test
         {
             var result = Kata.printDiamond('C');
 
-            Assert.AreSame("  A" + Kata.rc +
+            Assert.AreEqual("  A" + Kata.rc +
                    " B B" + Kata.rc +
                    "C   C" + Kata.rc +
                    " B B" + Kata.rc +
