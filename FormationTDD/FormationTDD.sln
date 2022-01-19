@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDiamond_Test", "PrintD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDiamond_Console", "PrintDiamond_Console\PrintDiamond_Console.csproj", "{F75BF763-8530-4B31-A7EF-21C705EB8712}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation", "TrainReservation\TrainReservation.csproj", "{8650A31E-2169-46FB-95CD-4C95896EAAFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation_Test", "TrainReservation_Test\TrainReservation_Test.csproj", "{1AEB6D3F-EA86-449C-92F4-F55760640820}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{F75BF763-8530-4B31-A7EF-21C705EB8712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F75BF763-8530-4B31-A7EF-21C705EB8712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F75BF763-8530-4B31-A7EF-21C705EB8712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8650A31E-2169-46FB-95CD-4C95896EAAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8650A31E-2169-46FB-95CD-4C95896EAAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8650A31E-2169-46FB-95CD-4C95896EAAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8650A31E-2169-46FB-95CD-4C95896EAAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEB6D3F-EA86-449C-92F4-F55760640820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEB6D3F-EA86-449C-92F4-F55760640820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEB6D3F-EA86-449C-92F4-F55760640820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEB6D3F-EA86-449C-92F4-F55760640820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
