@@ -13,7 +13,7 @@ namespace TrainReservation_Test
         [Test]
         public void Should_get_next_train_available_seats()
         {
-            Kata.get_next_train_AvailableSeats("Caen", "Paris", "11h58");
+            //Kata.get_next_train_AvailableSeats("Caen", "Paris", "11h58");
         }
     }
 }

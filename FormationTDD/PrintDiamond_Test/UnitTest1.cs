@@ -15,11 +15,33 @@ namespace PrintDiamond_Test
         {
             var result = Kata.printDiamond('C');
 
-            Assert.AreEqual("  A" + Kata.rc +
+            var expected = "  A" + Kata.rc +
                    " B B" + Kata.rc +
                    "C   C" + Kata.rc +
                    " B B" + Kata.rc +
-                   "  A", result);
+                   "  A";
+
+            TestContext.WriteLine("Expected:{0}{1}", System.Environment.NewLine, expected);
+            TestContext.WriteLine("Result:{0}{1}", System.Environment.NewLine, result);
+
+            Assert.AreEqual(expected, result);
+        }
+
+        [Test]
+        public void Should_display_a_diamond_with_a_string_until_Z()
+        {
+            var result = Kata.printDiamond('Z');
+
+            var expected = "  A" + Kata.rc +
+                   " B B" + Kata.rc +
+                   "C   C" + Kata.rc +
+                   " B B" + Kata.rc +
+                   "  A";
+
+            TestContext.WriteLine("Expected:{0}{1}", System.Environment.NewLine, expected);
+            TestContext.WriteLine("Result:{0}{1}", System.Environment.NewLine, result);
+
+            Assert.AreEqual(expected, result);
         }
     }
 }

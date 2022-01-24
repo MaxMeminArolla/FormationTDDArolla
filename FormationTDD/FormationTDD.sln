@@ -5,21 +5,19 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreatestCommonDivisor_Test", "GreatestCommonDivisor_Test\GreatestCommonDivisor_Test.csproj", "{76C897DB-860E-4738-B391-DBC6D59149ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatesCommonDivisor", "GreatesCommonDivisor\GreatesCommonDivisor.csproj", "{71C69D2F-5E22-48F3-B1CA-4A650019E723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreatesCommonDivisor", "GreatesCommonDivisor\GreatesCommonDivisor.csproj", "{71C69D2F-5E22-48F3-B1CA-4A650019E723}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis", "Tennis\Tennis.csproj", "{F1025C1B-EE05-47A2-AF6F-E573A3F9FF80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tennis", "Tennis\Tennis.csproj", "{F1025C1B-EE05-47A2-AF6F-E573A3F9FF80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis_Test", "Tennis_Test\Tennis_Test.csproj", "{F5162D5D-2B8F-4B7B-9187-387C2A8E2A7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tennis_Test", "Tennis_Test\Tennis_Test.csproj", "{F5162D5D-2B8F-4B7B-9187-387C2A8E2A7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDiamond", "PrintDiamond\PrintDiamond.csproj", "{576E0319-16F6-428C-B630-BADB33BC867F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintDiamond", "PrintDiamond\PrintDiamond.csproj", "{576E0319-16F6-428C-B630-BADB33BC867F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDiamond_Test", "PrintDiamond_Test\PrintDiamond_Test.csproj", "{FCA8399E-404C-4505-B21D-1CEB98ECB75F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintDiamond_Test", "PrintDiamond_Test\PrintDiamond_Test.csproj", "{FCA8399E-404C-4505-B21D-1CEB98ECB75F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDiamond_Console", "PrintDiamond_Console\PrintDiamond_Console.csproj", "{F75BF763-8530-4B31-A7EF-21C705EB8712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainReservation", "TrainReservation\TrainReservation.csproj", "{8650A31E-2169-46FB-95CD-4C95896EAAFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation", "TrainReservation\TrainReservation.csproj", "{8650A31E-2169-46FB-95CD-4C95896EAAFE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation_Test", "TrainReservation_Test\TrainReservation_Test.csproj", "{1AEB6D3F-EA86-449C-92F4-F55760640820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainReservation_Test", "TrainReservation_Test\TrainReservation_Test.csproj", "{1AEB6D3F-EA86-449C-92F4-F55760640820}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,10 +49,6 @@ Global
 		{FCA8399E-404C-4505-B21D-1CEB98ECB75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCA8399E-404C-4505-B21D-1CEB98ECB75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCA8399E-404C-4505-B21D-1CEB98ECB75F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F75BF763-8530-4B31-A7EF-21C705EB8712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F75BF763-8530-4B31-A7EF-21C705EB8712}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F75BF763-8530-4B31-A7EF-21C705EB8712}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F75BF763-8530-4B31-A7EF-21C705EB8712}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8650A31E-2169-46FB-95CD-4C95896EAAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8650A31E-2169-46FB-95CD-4C95896EAAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8650A31E-2169-46FB-95CD-4C95896EAAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
