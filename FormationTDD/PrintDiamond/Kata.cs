@@ -4,10 +4,28 @@ using System.Text;
 
 namespace PrintDiamond
 {
-    public class Kata
+    public abstract class Extension
+    {
+
+        public Extension()
+        {
+
+        }
+
+        public static string Affiche()
+        {
+            return string.Empty;
+        }
+
+        public abstract void display();
+    }
+
+    public class Kata :Extension
     {
         public const string rc = "\r\n";
         const char space = ' ';
+
+
 
         public static string printDiamond(char letter)
         {
@@ -44,6 +62,11 @@ namespace PrintDiamond
                 }
             }
             return sb.ToString();
+        }
+
+        public override void display()
+        {
+            throw new NotImplementedException();
         }
     }
 }
